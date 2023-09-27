@@ -27,6 +27,7 @@ public class PersonaController {
         return "Con Query param:- Hola, " + nombre1 ;
     }
 
+    //Este es un comentario de prueba
     @PostMapping("/saludarj")
     public String saludar(@RequestBody PersonaServiceImp personaService) {
         return "Acabo de recibir " + personaService.getNombre();
